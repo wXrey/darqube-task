@@ -1,0 +1,134 @@
+.card-root {
+  position: relative;
+}
+
+.card-root-bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  filter: brightness(0.5);
+  border-radius: 6px;
+}
+
+.card-title {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  bottom: 40px;
+}
+
+.card-title:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.card-primary {
+  width: 478px;
+  height: 628px;
+}
+
+.card-secondary {
+  width: 280px;
+  height: 425px;
+  margin: 0 0 18px 12px;
+}
+
+.card-weekly-brief {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  z-index: 1;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 15px;
+  background: transparent;
+  padding: 5px 10px;
+}
+
+.card-weekly-brief:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.card-latest-research {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  z-index: 1;
+  background: #b73556;
+  color: #fff;
+  padding: 5px 10px;
+  border: 0;
+  font-size: 11px;
+}
+
+.card-latest-research:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.card-read-research {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 20px;
+}
+
+.card-read-research button {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-read-research button:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.card-read-research-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(161, 155, 155);
+  border-radius: 20px;
+}
+
+.card-read-research-icon img {
+  width: 10px;
+  height: 10px;
+  filter: invert() brightness(10);
+}
+
+.card-date {
+  z-index: 1;
+  color: #c0c4c6;
+}
+
+.card-bookmark-icon{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  width: 15px;
+  height: 15px;
+}
+
+.card-bookmark-icon:hover{
+  cursor: pointer;
+}
+
+.vertical-line {
+  border-left: 1px solid #c0c4c6;
+  height: 12px;
+  margin: 0px 5px;
+}

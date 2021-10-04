@@ -1,0 +1,14 @@
+.navbar-root {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px;
+}
+
+.navbar-pages span {
+  margin-right: 20px;
+}
+
+.navbar-pages span:hover {
+    color: orange;
+    cursor: pointer;
+  }

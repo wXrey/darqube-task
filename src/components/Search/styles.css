@@ -1,0 +1,24 @@
+.search-root {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-root input {
+  box-sizing: border-box;
+  width: 162px;
+  height: 30px;
+  background: #191818;
+  color: #fff;
+  border: 0;
+  outline: none;
+  padding-left: 30px;
+  border-radius: 4px;
+}
+
+.search-root img {
+  position: absolute;
+  left: 10px;
+  width: 12px;
+  height: 12px;
+}

@@ -1,0 +1,17 @@
+.news-page {
+  display: flex;
+  margin: 0 30px 30px 30px;
+  flex-wrap: wrap;
+}
+
+.secondary-news {
+    display: flex;
+    margin-left: 24px;
+    flex-wrap: wrap;
+    max-width: 876px;
+}
+
+.news-pagination{
+  width: 100%;
+  margin-left: 512px;
+}

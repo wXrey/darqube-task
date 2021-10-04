@@ -1,0 +1,27 @@
+.pagination-root {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.pagination-items-info span {
+    opacity: 25%;
+}
+
+.pagination-action-buttons button {
+    background: #3C3C3C;
+    color: #fff;
+    width: 116px;
+    height: 25px;
+    line-height: 12px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.pagination-action-buttons button:hover {
+    color: orange;
+    cursor: pointer;
+}
